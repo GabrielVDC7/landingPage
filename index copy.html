@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page de Jogos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header -->
+  <header class="header glass">
+    <h1 class="logo">AeroJogos</h1>
+    <nav class="menu">
+      <button class="menu-btn">Início</button>
+      <button class="menu-btn">Jogos</button>
+      <button class="menu-btn">Sobre</button>
+    </nav>
+  </header>
+  
+
+  <div class="container glass">
+    
+    <p>Explore os melhores títulos com uma vibe retrô-futurista incrível.</p>
+    <button id="btn-explorar">Explorar Jogos</button>
+  </div>
+
+  <div id="mensagem" class="mensagem-oculta">Prepare-se para jogar!</div>
+
+  <!-- Carrossel -->
+  <div class="carousel-container glass">
+    <button class="nav-btn left" id="prev">&#10094;</button>
+
+    <div class="carousel" id="carousel">
+      <img src="https://picsum.photos/100" class="carousel-item" alt="Jogo 1">
+      <img src="https://picsum.photos/100" class="carousel-item" alt="Jogo 2">
+      <img src="https://picsum.photos/100" class="carousel-item" alt="Jogo 3">
+    </div>
+
+    <button class="nav-btn right" id="next">&#10095;</button>
+  </div>
+  <!-- Footer -->
+  <footer class="footer glass">
+    <p>&copy; 2025 AeroJogos. Todos os direitos reservados.</p>
+    <div class="social-icons">
+      <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" /></a>
+      <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" /></a>
+      <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="Twitter (X)" /></a>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
